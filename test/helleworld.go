@@ -1,8 +1,9 @@
-//国际惯例
+/* 国际惯例 hello world */
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("helloworld!")
+	var x int32
+
+	var s = "hello,world!"
+	println(x, s)
 }

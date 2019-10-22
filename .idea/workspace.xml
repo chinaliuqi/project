@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d722c0-d2a2-4e16-b49f-50ec3dad9f15" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+    <list default="true" id="08d722c0-d2a2-4e16-b49f-50ec3dad9f15" name="默认更改列表" comment="增加了一个HTTP SERVER 读取TXT文本的样例">
+      <change afterPath="$PROJECT_DIR$/test/web/fileweb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web/test1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helleworld.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/helleworld.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -29,8 +31,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
-    <property name="GO_FMT" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build test1.go">
     <configuration name="go build helleworld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -62,8 +64,16 @@
       <filePath value="$PROJECT_DIR$/test/helleworld.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/web/test1.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test1.go" />
         <item itemvalue="Go Build.go build helleworld.go" />
       </list>
     </recent_temporary>
@@ -93,9 +103,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="这真没什么好些的" />
     <MESSAGE value="给自己定一个计划和时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="给自己定一个计划和时间" />
+    <MESSAGE value="Revert &quot;这真没什么好写的&quot;&#10;&#10;This reverts commit 2d8ff0faf0633c57ad1997a0d5aa38e1a979654e.&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="Revert &quot;这真没什么好些的&quot;&#10;&#10;This reverts commit 2d8ff0faf0633c57ad1997a0d5aa38e1a979654e.&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="增加了一个HTTP SERVER 读取TXT文本的样例" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了一个HTTP SERVER 读取TXT文本的样例" />
   </component>
 </project>
