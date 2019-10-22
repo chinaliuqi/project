@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d722c0-d2a2-4e16-b49f-50ec3dad9f15" name="默认更改列表" comment="增加了一个HTTP SERVER 读取TXT文本的样例">
-      <change afterPath="$PROJECT_DIR$/test/web/fileweb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/web/test1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/helleworld.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/helleworld.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
